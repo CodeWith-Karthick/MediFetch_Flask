@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download Secret File</title>
+    <title>Index Site</title>
     <link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
 </head>
 <body>
     <div class="container">
-        <h3>Download Secret File</h3>
+        <h3>Patient Sentiment & Adverse Effect Analysis</h3>
         <div class="button-group">
             <a href="{{url_for('login')}}" class="button login-button">Login</a>
             <a href="{{url_for('register')}}" class="button register-button">Register</a>
         </div>
     </div>
-    <div id="snowflakes"></div> <!-- Snowflakes container -->
+    <!--<div id="snowflakes"></div>--> <!-- Snowflakes container -->
     <script src="{{url_for('static',filename='script.js')}}"></script>
 </body>
 </html>

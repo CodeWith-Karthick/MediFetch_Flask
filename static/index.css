@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url("bg.jpg") no-repeat center center/cover;
+    background: url("bg11.jpg") no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,8 +46,9 @@ h3 {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+
 .login-button {
-    background-color: black;
+    background-color: rgba(211, 147, 38, 0.915);
 }
 
 .register-button {
@@ -65,28 +66,6 @@ h3 {
 .button:focus {
     outline: none;
 }
-/* Snowflakes styles */
-#snowflakes {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none; /* Ensure it doesn't block interactions */
-    overflow: hidden;
-}
-
-.snowflake {
-    position: absolute;
-    top: -10px;
-    background: white;
-    border-radius: 50%;
-    opacity: 0.8;
-    pointer-events: none;
-    will-change: transform, opacity;
-    animation: fall linear infinite;
-}
-
 @keyframes fall {
     0% {
         transform: translateY(-100px) scale(0.8);
