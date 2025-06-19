@@ -46,27 +46,27 @@ User_Auth_Flask/
 ├── README.md
 🧪 Setup Instructions
 🔹 1. Clone the Repository
-bash
+
 Copy
 Edit
 git clone https:https://github.com/CodeWith-Karthick/cts-front-end.git
 cd User_Auth_Flask
 🔹 2. Set Up a Virtual Environment
-bash
+
 Copy
 Edit
 python -m venv env
 source env/bin/activate   # on macOS/Linux
 env\Scripts\activate      # on Windows
 🔹 3. Install Dependencies
-bash
+
 Copy
 Edit
 pip install -r requirements.txt
 Don’t forget to create a .env file and include Gmail credentials for password recovery.
 
 🔹 4. Run the App
-bash
+
 Copy
 Edit
 python app.py
@@ -99,18 +99,3 @@ Edit
 
 
 
-## ✅ Next Steps:
-
-1. **Create the file** in your project root:
-   ```bash
-   touch README.md
-Paste the content above into README.md.
-
-Commit and Push it to GitHub:
-
-bash
-Copy
-Edit
-git add README.md
-git commit -m "Add README.md for user auth front-end"
-git push
