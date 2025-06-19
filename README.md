@@ -49,7 +49,7 @@ User_Auth_Flask/
 bash
 Copy
 Edit
-git clone https://github.com/CodeWith-Karthick/User_Auth_Flask.git
+git clone https:https://github.com/CodeWith-Karthick/cts-front-end.git
 cd User_Auth_Flask
 🔹 2. Set Up a Virtual Environment
 bash
