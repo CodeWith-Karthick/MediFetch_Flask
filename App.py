@@ -129,8 +129,8 @@ def login():
     return render_template("login.html")
 
 def send_recovery_email(to_email, code):
-    from_email = "noreplymedifetch@gmail.com"
-    from_password = "alefcqkhfwehxktp"
+    from_email = "your mail id"
+    from_password = "your app password"
     subject = 'Password Recovery Code-MediFetch'
     body = (f'Your recovery code is {code}.'
             f'It will expire in 15 minutes.'
